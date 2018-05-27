@@ -1,6 +1,7 @@
 # docker-opengrok
 Docker image for [OpenGrok](http://oracle.github.io/opengrok/)
 
+>OpenGrok is a fast and usable source code search and cross reference engine. 
 
 # Usage
 ```sh
