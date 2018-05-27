@@ -17,7 +17,7 @@ while true; do
         echo "----- reindex grace period: $REINDEX_GRACE_PERIOD secs -----" 1>&2
         sleep $REINDEX_GRACE_PERIOD
 
-        echo "----- reindexing -----" 1>&2
+        echo "----- reindexing: $(date --rfc-3339=seconds) -----" 1>&2
         ${OPENGROK_INSTANCE_BASE}/bin/OpenGrok index $OPENGROK_SRC_ROOT
 
         # discard changes during the grace period and the reindexing
