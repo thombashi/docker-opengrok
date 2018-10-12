@@ -1,5 +1,5 @@
 # docker-opengrok
-Docker image for [OpenGrok](http://oracle.github.io/opengrok/)
+Docker image for [OpenGrok](http://oracle.github.io/opengrok/) with Universal Ctags.
 
 >OpenGrok is a fast and usable source code search and cross reference engine. 
 
@@ -14,7 +14,7 @@ after the first source code indexing completed.
 
 # Docker Image Includes
 - `OpenGrok 1.0`
-- [universal-ctags]( https://github.com/universal-ctags/ctags )
+- [Universal Ctags]( https://github.com/universal-ctags/ctags )
 - Auto reindexing triggered by changes of the directory with files to be indexed
     - [inotify-tools]( https://github.com/rvoicilas/inotify-tools )
 - [Git]( https://git-scm.com/ )
